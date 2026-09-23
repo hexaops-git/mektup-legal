@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mektup — Gizlilik Politikası / Privacy Policy</title>
+<style>
+  :root { --fg:#1b2430; --muted:#5b6675; --accent:#107494; --bg:#ffffff; --line:#e3e8ee; }
+  @media (prefers-color-scheme: dark) { :root { --fg:#e7edf3; --muted:#9aa6b4; --accent:#4fb3d1; --bg:#0f1720; --line:#23303d; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 20px 80px; }
+  h1 { font-size:28px; margin:0 0 4px; }
+  h2 { font-size:20px; margin:36px 0 8px; padding-top:12px; border-top:1px solid var(--line); }
+  h3 { font-size:16px; margin:22px 0 6px; }
+  p, li { color:var(--fg); }
+  .meta { color:var(--muted); font-size:14px; margin-bottom:24px; }
+  .lang { display:flex; gap:12px; font-size:14px; margin-bottom:28px; }
+  a { color:var(--accent); }
+  ul { padding-left:20px; }
+  table { width:100%; border-collapse:collapse; font-size:14px; margin:8px 0; }
+  th, td { text-align:left; vertical-align:top; padding:8px; border-bottom:1px solid var(--line); }
+  th { color:var(--muted); font-weight:600; }
+</style>
+</head>
+<body>
+<main>
+
+<nav class="lang"><a href="#tr">Türkçe</a><a href="#en">English</a></nav>
+
+<section id="tr" lang="tr">
+<h1>Mektup Gizlilik Politikası</h1>
+<p class="meta">Yürürlük tarihi: 23 Eylül 2026</p>
+
+<p>Bu politika, <strong>Mektup</strong> mobil uygulamasını (iOS ve Android) kullandığınızda hangi kişisel verilerin işlendiğini, neden işlendiğini ve haklarınızı açıklar.</p>
+
+<h2>1. Veri sorumlusu</h2>
+<p>HEXAOPS Teknoloji Yazılım Elektrik Elektronik Lojistik Organizasyon Prodüksiyon Turizm Danışmanlık Reklam Otomotiv Pazarlama Sanayi ve Ticaret A.Ş.<br>
+Avşar Mah. Batı Çevre Yolu No: 259 Daire: 15, 46100 Onikişubat / Kahramanmaraş, Türkiye<br>
+E-posta: <a href="mailto:info@hexaops.net">info@hexaops.net</a></p>
+
+<h2>2. İşlenen veriler</h2>
+<table>
+<tr><th>Veri</th><th>Ne için</th></tr>
+<tr><td><strong>Telefon numaranız</strong></td><td>Hesap oluşturma ve SMS doğrulama koduyla giriş.</td></tr>
+<tr><td><strong>Profil bilgileri</strong> — ad, soyad, "hakkında" metni, profil fotoğrafı (isteğe bağlı), dil tercihi, son görülme zamanı</td><td>Sizi sohbet ettiğiniz kişilere tanıtmak; mesajları sizin dilinize çevirmek.</td></tr>
+<tr><td><strong>Rehber numaralarının özet değerleri</strong></td><td>Rehberinizdeki kişilerden Mektup kullananları bulmak. Numaralar cihazınızda SHA-256 ile özetlenir; sunucuya numaranın kendisi değil, bu özet değer gönderilir ve saklanır. Rehberdeki isimler cihazınızdan çıkmaz.</td></tr>
+<tr><td><strong>Mesaj içerikleri</strong> — metin, sesli mesaj, fotoğraf, video, dosya, kişi kartı; mesajların çevirileri ve sesli mesajların yazıya dökülmüş hâli</td><td>Mesajlarınızı alıcıya iletmek ve çevirmek.</td></tr>
+<tr><td><strong>Cihaz bildirim anahtarı</strong> (push token) ve platform bilgisi</td><td>Yeni mesaj bildirimlerini göndermek.</td></tr>
+<tr><td><strong>Engelleme, şikâyet ve destek kayıtları</strong></td><td>Kötüye kullanımı önlemek ve destek taleplerinizi yanıtlamak.</td></tr>
+</table>
+<p>Mektup'ta <strong>reklam, analitik veya kullanıcı takibi (tracking) yazılımı bulunmaz.</strong> Verileriniz reklam amacıyla kullanılmaz ve satılmaz.</p>
+
+<h2>3. Yapay zekâ çevirisi — açık bilgilendirme</h2>
+<p>Mesajlar <strong>uçtan uca şifreli değildir.</strong> Çeviri cihazınızda değil, sunucularımızda yapılır. Gönderdiğiniz metin mesajları ve sesli mesajlar, alıcının diline çevrilmek ve yazıya dökülmek üzere Google'ın Gemini yapay zekâ hizmetine iletilir. Bu işlem yalnızca çeviri için yapılır.</p>
+
+<h2>4. Hizmet sağlayıcılar ve yurt dışına aktarım</h2>
+<p>Hizmeti sunabilmek için aşağıdaki sağlayıcılarla çalışırız. Bu sağlayıcıların sunucuları Türkiye dışında bulunabilir; verileriniz bu nedenle yurt dışına aktarılır.</p>
+<ul>
+<li><strong>Supabase</strong> — veritabanı, dosya depolama ve kimlik doğrulama (sunucu konumu: Avustralya).</li>
+<li><strong>Google (Gemini API)</strong> — mesaj ve sesli mesaj çevirisi, konuşmanın yazıya dökülmesi.</li>
+<li><strong>Twilio</strong> — giriş için SMS doğrulama kodunun gönderilmesi.</li>
+<li><strong>Apple (APNs), Google (Firebase Cloud Messaging) ve Expo</strong> — bildirimlerin cihazınıza iletilmesi.</li>
+</ul>
+
+<h2>5. Güvenlik</h2>
+<p>Veriler aktarım sırasında TLS ile korunur ve sunucuda şifreli olarak saklanır. Veritabanı erişim kuralları, her kullanıcının yalnızca dahil olduğu sohbetlere erişebilmesini sağlar.</p>
+
+<h2>6. Saklama süresi ve hesap silme</h2>
+<p>Verileriniz hesabınız açık olduğu sürece saklanır. Hesabınızı uygulama içinden <strong>Ayarlar → Hesap Ayarları → Hesabı Sil</strong> yoluyla istediğiniz zaman silebilirsiniz. Hesap silindiğinde profiliniz, gönderdiğiniz mesajlar, rehber eşleştirme kayıtlarınız ve cihaz bildirim anahtarlarınız silinir. Başka kullanıcılar hakkında yaptığınız şikâyet kayıtları, kötüye kullanımı önleme amacıyla saklanabilir.</p>
+
+<h2>7. Haklarınız</h2>
+<p>6698 sayılı Kişisel Verilerin Korunması Kanunu'nun 11. maddesi kapsamında verilerinizin işlenip işlenmediğini öğrenme, bilgi talep etme, düzeltme, silme ve itiraz etme haklarına sahipsiniz. Taleplerinizi <a href="mailto:info@hexaops.net">info@hexaops.net</a> adresine iletebilirsiniz.</p>
+
+<h2>8. Çocuklar</h2>
+<p>Mektup 13 yaşın altındaki çocuklara yönelik değildir ve bu yaş grubundan bilerek veri toplamaz.</p>
+
+<h2>9. Değişiklikler</h2>
+<p>Bu politikayı güncellediğimizde yürürlük tarihini değiştirir, önemli değişiklikleri uygulama içinden duyururuz.</p>
+</section>
+
+<section id="en" lang="en">
+<h1>Mektup Privacy Policy</h1>
+<p class="meta">Effective date: 23 September 2026</p>
+
+<p>This policy explains which personal data is processed when you use the <strong>Mektup</strong> mobile app (iOS and Android), why it is processed, and what your rights are.</p>
+
+<h2>1. Data controller</h2>
+<p>HEXAOPS Teknoloji Yazılım Elektrik Elektronik Lojistik Organizasyon Prodüksiyon Turizm Danışmanlık Reklam Otomotiv Pazarlama Sanayi ve Ticaret A.Ş.<br>
+Avşar Mah. Batı Çevre Yolu No: 259 Daire: 15, 46100 Onikişubat / Kahramanmaraş, Türkiye<br>
+Email: <a href="mailto:info@hexaops.net">info@hexaops.net</a></p>
+
+<h2>2. Data we process</h2>
+<table>
+<tr><th>Data</th><th>Purpose</th></tr>
+<tr><td><strong>Your phone number</strong></td><td>Creating your account and signing in with an SMS verification code.</td></tr>
+<tr><td><strong>Profile details</strong> — first name, last name, "about" text, profile photo (optional), language preference, last seen time</td><td>Showing who you are to the people you chat with; translating messages into your language.</td></tr>
+<tr><td><strong>Hashed contact numbers</strong></td><td>Finding which of your contacts use Mektup. Numbers are hashed with SHA-256 on your device; the hash, not the number itself, is sent to and stored on the server. Contact names never leave your device.</td></tr>
+<tr><td><strong>Message content</strong> — text, voice messages, photos, videos, files, contact cards; translations of messages and transcripts of voice messages</td><td>Delivering your messages and translating them.</td></tr>
+<tr><td><strong>Device push token</strong> and platform</td><td>Sending you new-message notifications.</td></tr>
+<tr><td><strong>Block, report and support records</strong></td><td>Preventing abuse and answering support requests.</td></tr>
+</table>
+<p>Mektup contains <strong>no advertising, analytics or tracking software.</strong> Your data is not used for advertising and is not sold.</p>
+
+<h2>3. AI translation — plain disclosure</h2>
+<p>Messages are <strong>not end-to-end encrypted.</strong> Translation runs on our servers, not on your device. The text messages and voice messages you send are passed to Google's Gemini AI service so they can be translated into the recipient's language and transcribed. This is done only for translation.</p>
+
+<h2>4. Service providers and international transfers</h2>
+<p>We work with the providers below to run the service. Their servers may be located outside Türkiye, so your data is transferred abroad.</p>
+<ul>
+<li><strong>Supabase</strong> — database, file storage and authentication (server location: Australia).</li>
+<li><strong>Google (Gemini API)</strong> — translating messages and voice messages, and transcribing speech.</li>
+<li><strong>Twilio</strong> — sending the SMS verification code used to sign in.</li>
+<li><strong>Apple (APNs), Google (Firebase Cloud Messaging) and Expo</strong> — delivering notifications to your device.</li>
+</ul>
+
+<h2>5. Security</h2>
+<p>Data is protected with TLS in transit and encrypted at rest. Database access rules ensure each user can only reach the conversations they are part of.</p>
+
+<h2>6. Retention and account deletion</h2>
+<p>We keep your data for as long as your account is open. You can delete your account at any time in the app under <strong>Settings → Account Settings → Delete Account</strong>. Deleting your account removes your profile, the messages you sent, your contact-matching records and your device push tokens. Reports you have made about other users may be kept to prevent abuse.</p>
+
+<h2>7. Your rights</h2>
+<p>Under Turkish Personal Data Protection Law No. 6698 (Article 11) and other applicable laws, you have the right to learn whether your data is processed, request information, and ask for correction, deletion or to object. Send requests to <a href="mailto:info@hexaops.net">info@hexaops.net</a>.</p>
+
+<h2>8. Children</h2>
+<p>Mektup is not directed to children under 13 and does not knowingly collect data from them.</p>
+
+<h2>9. Changes</h2>
+<p>When we update this policy we change the effective date and announce significant changes in the app.</p>
+</section>
+
+</main>
+</body>
+</html>
